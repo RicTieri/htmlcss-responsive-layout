@@ -348,16 +348,6 @@ span.col-right-title{
 
 /* RESPONSIVE */
 
-@media screen and (max-width:480px) {
-  .navbar li {
-    display: none;
-  }
-
-  .navbar li:last-child {
-    display: block;
-  }
-}
-
 @media screen and (max-width:768px) {
   .navbar li {
     display: none;
@@ -368,11 +358,16 @@ span.col-right-title{
   }
 }
 
-@media screen and (max-width:480) {
+@media screen and (min-width:480px) {
   .flex-col{
     flex-direction: row;
+    flex-wrap: wrap;
   }
-  .text-card{
-    width: calc(100% / 3);
+  .card{
+    width: calc((100% / 3) - 2rem);
+    margin: 0 1rem;
+  }
+  .card-66{
+    width: calc(((100% / 3) - 2rem) * 2);
   }
 }
