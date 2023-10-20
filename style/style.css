@@ -111,6 +111,7 @@ button i {
 
 .card img {
   width: 80%;
+  display: block;
 }
 
 .card>i {
