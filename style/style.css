@@ -466,7 +466,7 @@ footer a{
     width: 35%;
     margin: 3rem auto;
   }
-  .about-side .btn-violet{
+  .btn-violet{
     padding: 1rem ;
   }
   .footer-container{
@@ -552,4 +552,41 @@ footer a{
     margin-top: 2rem;
   }
 /* TESTIMONIAL sECTION  */
+  .text-card{
+    width: calc((100% / 3) - (4rem / 3));
+  }
+  .text-card p{
+    font-size: 1rem;
+  }
+  .text-about,
+  .about-side{
+    padding-top: 4rem;
+  }
+  .title-about{
+    font-size: 4rem;
+  }
+  .text-about{
+    width: calc(65% - 6rem);
+    margin: 0 3rem;
+  }
+  .text-about p{
+    line-height: 2.5rem;
+  }
+  .about-side{
+    width: calc(35% - 6rem);
+    margin: 0 3rem;
+  }
+  .btn-violet{
+    padding: .5rem 1rem;
+  }
+  .footer-container{
+    width: 30%;
+    margin: auto;
+  }
+  footer .yellow-banner{
+    font-size: 5.5rem;
+  }
+  footer .btn-footer{
+    padding: 1.8rem 6rem;
+  }
 }
