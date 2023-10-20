@@ -1,16 +1,16 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* HEADER */
 
-header{
+header {
   background-color: #0084fd;
   display: flex;
   justify-content: space-between;
@@ -18,29 +18,48 @@ header{
   padding: 1rem;
 }
 
-header i{
+header i {
   font-size: 2rem;
   color: #fff;
 }
 
 /* CONTAINER AND FLEX SET */
 
-.container{
+.container {
   width: 100vw;
-  padding: 1rem;
+  padding: 2rem;
 }
 
-.flex{
+.flex {
   display: flex;
 }
 
-.flex-col{
+.flex-col {
   flex-direction: column;
+}
+
+/* BUTTON */
+
+.btn-azure {
+  padding: 1rem 3rem;
+  color: white;
+  border: none;
+  background-color: #0084fd;
+  border-radius: 50px;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+button i {
+  color: white;
+  font-size: 1.2rem;
+  margin-right: 1rem;
 }
 
 /* FIRST CARD SECTION */
 
-.card{
+.card {
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -48,47 +67,62 @@ header i{
   text-align: center;
   width: 100%;
   border-radius: 20px;
+  margin-bottom: 1.5rem;
 }
 
 /* card-style for first section  */
 
-.card i{
+.card-col-left{
+  padding: 2rem;
+  text-align: left;
+}
+
+
+.card img {
+  width: 80%;
+}
+
+.card>i {
   font-size: 5rem;
-  padding: 2rem 0 1rem;
+  padding: 2rem 0 0 0;
   color: #0084fd;
 }
 
 
-.card .title-card{
+.card .title-card {
   color: #0084fd;
   font-weight: 800;
   font-size: 1.3rem;
+  padding: 2rem;
 }
 
-.card p{
+.card p {
   line-height: 1.6rem;
-  padding: 1rem 1.5rem 2rem;
+  padding: 0rem 1.5rem 2rem;
   color: #5a6e7f;
   font-weight: 600;
 }
 
 
+
 /* RESPONSIVE */
 
-@media screen and (max-width:480px){
-  .navbar li{
+@media screen and (max-width:480px) {
+  .navbar li {
     display: none;
   }
-  .navbar li:last-child{
+
+  .navbar li:last-child {
     display: block;
   }
 }
 
-@media screen and (max-width:768px){
-  .navbar li{
+@media screen and (max-width:768px) {
+  .navbar li {
     display: none;
   }
-  .navbar li:last-child{
+
+  .navbar li:last-child {
     display: block;
   }
 }
