@@ -28,7 +28,7 @@ header i {
 /* CONTAINER AND FLEX SET */
 
 .container {
-  width: 100vw;
+  width: calc(100vw - 2rem);
   padding: 2rem;
 }
 
@@ -38,6 +38,12 @@ header i {
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-centered{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* BUTTON */
@@ -62,9 +68,6 @@ button i {
 /* FIRST CARD SECTION */
 
 .card {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-color: #b5ddff;
   text-align: center;
   width: 100%;
@@ -95,6 +98,7 @@ button i {
 
 
 .card .title-card {
+  display: block;
   color: #0084fd;
   font-weight: 900;
   font-size: 1.3rem;
@@ -119,7 +123,46 @@ button i {
 
 .col-left img,
 .col-right img{
-  width: 100%;
+  width: calc(100% - 2rem);
+  margin: 2rem;
+}
+
+.col-left-title{
+  color: #fff;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 2rem 0;
+}
+
+.col-left p{
+  color: #fff;
+  padding: 2rem 0;
+}
+
+.col-right{
+  padding: 2rem 0 4rem;
+  text-align: center;
+  margin: 1rem;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+span.col-right-title{
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.col-right p{
+  line-height: 2rem;
+  font-style: italic;
+  margin: 2rem 2rem 4rem;
+}
+
+.arrow{
+  font-weight: bold;
+  padding: 1.1rem 1.3rem;
+  border-radius: 50%;
+  background-color: #9792e4;
 }
 
 /* RESPONSIVE */
