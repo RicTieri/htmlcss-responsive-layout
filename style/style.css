@@ -38,6 +38,7 @@ header i {
 }
 
 .flex-col {
+  display: flex;
   flex-direction: column;
 }
 
@@ -73,7 +74,6 @@ button i {
   background-color: #9792e4;
   border-radius: 50px;
   font-size: 1rem;
-
   font-weight: 600;
 }
 
@@ -232,7 +232,7 @@ span.col-right-title{
 }
 
 .caption{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .caption i{
@@ -243,7 +243,7 @@ span.col-right-title{
 .caption-guest{
   font-size: 1.8rem;
   font-weight: 500;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .testimonials:last-child{
@@ -346,9 +346,65 @@ span.col-right-title{
   color: #9792e4;
 }
 
+/* FOOTER */
+
+footer div>*{
+  display: block;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+footer .full-width-bg{
+  padding: 4rem 2rem;
+  color: white;
+}
+
+footer .on-title{
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.7);
+}
+
+footer .title{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+footer .yellow-banner{
+  color: #fdc15f;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.btn-footer{
+  background-color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 1rem 4rem;
+  color: #9792e4;
+  font-size: 1.2rem;
+}
+
+footer a{
+  color: white;
+}
+
+.bg-black{
+  background-color: #333333;
+  color: #fff;
+  padding: 2rem;
+}
+
+.bg-black p{
+  padding: 1rem 0;
+}
+
+.bg-black a{
+  color: #9792e4;
+}
+
 /* RESPONSIVE */
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:810px) {
   .navbar li {
     display: none;
   }
@@ -365,9 +421,49 @@ span.col-right-title{
   }
   .card{
     width: calc((100% / 3) - 2rem);
-    margin: 0 1rem;
+    margin: 1rem;
   }
   .card-66{
-    width: calc(((100% / 3) - 2rem) * 2);
+    width: calc(((100% / 3) - 1rem) * 2);
   }
+  .bg-card{
+    justify-content: center;
+    align-items: center;
+  }
+  .bg-card img{
+    width: 200px;
+    height: 200px;
+    padding: 0;
+  }
+  .bg-card-caption{
+    text-align: left;
+    font-size: 0.7rem;
+    padding: 0;
+    width: 60%;
+  }
+  .card-container{
+    display: flex;
+    gap: 2rem;
+  }
+  .text-card{
+    width: calc((100% / 2) - (2rem / 2));
+  }
+  .text-about{
+    width: 50%;
+  }
+  .about-side{
+    width: 35%;
+    margin: 3rem auto;
+  }
+  .about-side .btn-violet{
+    padding: 1rem ;
+  }
+  .footer-container{
+    width: 80%;
+    margin: auto; 
+  }
+}
+
+@media screen and (min-width:810px) {
+  
 }
