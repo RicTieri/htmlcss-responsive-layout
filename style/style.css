@@ -66,6 +66,17 @@ button i {
   margin-right: 1rem;
 }
 
+.btn-violet{
+  padding: 1rem 3rem;
+  color: white;
+  border: none;
+  background-color: #9792e4;
+  border-radius: 50px;
+  font-size: 1rem;
+
+  font-weight: 600;
+}
+
 /* FIRST CARD SECTION */
 
 .card {
@@ -183,8 +194,9 @@ span.col-right-title{
 }
 
 .testimonials>p{
+  font-size: 1.5rem;
   line-height: 2rem;
-  font-weight: bold;
+
   padding: 3rem 1.5rem;
 }
 
@@ -199,6 +211,7 @@ span.col-right-title{
   background-color: #9792e4;
   color: #fff;
   border-radius: 60px;
+  margin-bottom: 2rem;
 }
 
 .bg-card-img{
@@ -219,8 +232,7 @@ span.col-right-title{
 }
 
 .caption{
-
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .caption i{
@@ -230,10 +242,60 @@ span.col-right-title{
 
 .caption-guest{
   font-size: 1.8rem;
-  font-weight: 700;
+  font-weight: 500;
   padding: 2rem;
 }
 
+.testimonials:last-child{
+  padding-bottom: 6rem;
+}
+
+/* CARD FULL-WIDTH-BG  */
+
+.card-sct-title{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  padding: 3rem 0;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.card-container{
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.text-card{
+  margin-top: 2rem;
+  width: 100%;
+  border-radius: 20px;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.card-nr{
+  margin-bottom: 1.8rem;
+  display: block;
+  color: #9792e4;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.card-cap{
+  margin-bottom: 1.5rem;
+  color: #9792e4;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.text-card p{
+  font-size: 1.2rem;
+  line-height: 2rem;
+  padding: 1rem 0;
+  color: #8c8c8c;
+}
 
 /* RESPONSIVE */
 
@@ -254,5 +316,14 @@ span.col-right-title{
 
   .navbar li:last-child {
     display: block;
+  }
+}
+
+@media screen and (max-width:480) {
+  .flex-col{
+    flex-direction: row;
+  }
+  .text-card{
+    width: calc(100% / 3);
   }
 }
