@@ -3,3 +3,27 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header{
+  background-color: #0084fd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+header i{
+  font-size: 2rem;
+  color: #fff;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width:480px){
+  .navbar li{
+    display: none;
+  }
+  .navbar li:last-child{
+    display: block;
+  }
+}
