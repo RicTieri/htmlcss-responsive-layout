@@ -427,15 +427,28 @@ footer a{
 
 @media screen and (min-width:480px) {
   .flex-col{
+    justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
   }
+  .container{
+    width: calc(100% - 2rem);
+  }
   .card{
-    width: calc((100% / 3) - 2rem);
-    margin: 1rem;
+    width: calc((100% / 3) - 1rem);
+    margin: .5rem;
   }
   .card-66{
-    width: calc(((100% / 3) - 1rem) * 2);
+    width: calc(((100% / 3) - .5rem) * 2);
+  }
+  .card-col-left .title-card{
+    padding: 1rem 0;
+  }
+  .card-col-left p{
+    padding: 0;
+  }
+  .card-col-right img{
+    width: 80%;
   }
   .bg-card{
     justify-content: center;
