@@ -297,6 +297,55 @@ span.col-right-title{
   color: #8c8c8c;
 }
 
+/* ABOUT US */
+
+.text-about{
+  margin-top: 3rem
+}
+
+.title-about{
+  font-size: 3rem;
+  font-weight: bold;
+  color: #9792e4;
+}
+
+.text-about p{
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 2rem;
+  padding: 2rem 0;
+}
+
+.about-side{
+  margin: 4rem 0;
+}
+
+.about-img{
+  width: 100%;
+  position: relative;
+}
+
+.about-img img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.about-img i{
+  position: absolute;
+  color: #9792e4;
+  font-size: 4rem;
+  top: 0;
+  left: 200px;
+}
+
+.about-side p{
+  padding: 2rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #9792e4;
+}
+
 /* RESPONSIVE */
 
 @media screen and (max-width:480px) {
