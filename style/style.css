@@ -1,3 +1,5 @@
+/* RESET AND FONTS */
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +7,7 @@
 }
 
 body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* HEADER */
@@ -15,7 +17,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 1.5rem 2rem 1rem;
 }
 
 header i {
@@ -47,7 +49,7 @@ header i {
   background-color: #0084fd;
   border-radius: 50px;
   font-size: 1rem;
-  margin-bottom: 2rem;
+  margin: 2rem 0;
   font-weight: 600;
 }
 
@@ -77,6 +79,9 @@ button i {
   text-align: left;
 }
 
+.card-col-left>p{
+  margin-top: 2rem;
+}
 
 .card img {
   width: 80%;
@@ -91,19 +96,31 @@ button i {
 
 .card .title-card {
   color: #0084fd;
-  font-weight: 800;
+  font-weight: 900;
   font-size: 1.3rem;
-  padding: 2rem;
+  padding: 2rem 0;
 }
 
 .card p {
   line-height: 1.6rem;
-  padding: 0rem 1.5rem 2rem;
   color: #5a6e7f;
-  font-weight: 600;
+  font-weight: 700;
 }
 
+.card>p{
+  padding: 0 1.5rem 2rem;
+}
 
+/* FULL-WIDTH-BG */
+
+.full-width-bg{
+  background-color: #9792e4;
+}
+
+.col-left img,
+.col-right img{
+  width: 100%;
+}
 
 /* RESPONSIVE */
 
