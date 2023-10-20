@@ -506,9 +506,50 @@ footer a{
     width: 100%;
   }
   .col-left{
-    width: 50%;
+    width: calc(50% - 2rem);
+    margin: 4rem 1rem;
+  }
+  .col-left img{
+    margin-bottom: 6rem;
+  }
+  .col-left p{
+    font-size: .9rem;
+    line-height: 1.6rem;
   }
   .col-right{
+    width: calc(50% - 4rem);
+    margin: 4rem 2rem;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 56px;
+    align-self: flex-end;
+  }
+  .col-right p{
+    margin: 1rem 3rem;
+  }
+  .arrow{
+    margin: 1rem;
+  }
+  .col-left img{
+    margin: 0 0 10rem 0;
+  }
+  .col-right img{
+    margin: 0;
     width: 50%;
   }
+  .full-width-bg{
+    margin-top: 6rem;
+  }
+  .full-width-flex{
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 50%;
+  }
+  span.col-right-title{
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-top: 2rem;
+  }
+/* TESTIMONIAL sECTION  */
 }
