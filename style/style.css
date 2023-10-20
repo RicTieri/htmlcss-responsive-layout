@@ -28,8 +28,9 @@ header i {
 /* CONTAINER AND FLEX SET */
 
 .container {
-  width: calc(100vw - 2rem);
-  padding: 2rem;
+  padding-top: 2rem;
+  width: calc(100% - 6rem);
+  margin: auto;
 }
 
 .flex {
@@ -123,7 +124,7 @@ button i {
 
 .col-left img,
 .col-right img{
-  width: calc(100% - 2rem);
+  width: calc(100% - 4rem);
   margin: 2rem;
 }
 
@@ -141,8 +142,8 @@ button i {
 
 .col-right{
   padding: 2rem 0 4rem;
+  margin-bottom: 2rem;
   text-align: center;
-  margin: 1rem;
   border-radius: 20px;
   background-color: #fff;
 }
@@ -164,6 +165,75 @@ span.col-right-title{
   border-radius: 50%;
   background-color: #9792e4;
 }
+
+/* TESTIMONIALS  */
+
+.testimonials{
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.testimonials .on-title{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.testimonials span{
+  display: block;
+}
+
+.testimonials>p{
+  line-height: 2rem;
+  font-weight: bold;
+  padding: 3rem 1.5rem;
+}
+
+.testimonials-title{
+  display: block;
+  color: #9792e4;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.bg-card{
+  background-color: #9792e4;
+  color: #fff;
+  border-radius: 60px;
+}
+
+.bg-card-img{
+  padding: 2rem;
+  text-align: center;
+}
+
+.bg-card-img img{
+  object-fit: cover;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.bg-card-caption{
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.caption{
+
+  font-size: 2rem;
+}
+
+.caption i{
+  padding: 0 .5rem;
+  font-size: 2rem;
+}
+
+.caption-guest{
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 2rem;
+}
+
 
 /* RESPONSIVE */
 
