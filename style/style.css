@@ -207,7 +207,6 @@ span.col-right-title{
 .testimonials>p{
   font-size: 1.5rem;
   line-height: 2rem;
-
   padding: 3rem 1.5rem;
 }
 
@@ -440,6 +439,7 @@ footer a{
   .bg-card{
     justify-content: center;
     align-items: center;
+    flex-wrap: nowrap;
   }
   .bg-card img{
     width: 200px;
@@ -450,7 +450,6 @@ footer a{
     text-align: left;
     font-size: 0.7rem;
     padding: 0;
-    width: 60%;
   }
   .card-container{
     display: flex;
@@ -552,6 +551,18 @@ footer a{
     margin-top: 2rem;
   }
 /* TESTIMONIAL sECTION  */
+  .testimonials>p{
+    font-size: 1.2rem;
+  }
+  .caption i{
+    font-size: 1.3rem;
+  }
+  .bg-card{
+    justify-content: flex-start;
+  }
+  .caption-guest{
+    padding-left: 0;
+  }
   .text-card{
     width: calc((100% / 3) - (4rem / 3));
   }
