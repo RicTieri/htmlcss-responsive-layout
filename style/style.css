@@ -224,8 +224,10 @@ span.col-right-title{
 }
 
 .bg-card{
+  overflow: hidden;
   background-color: #9792e4;
   color: #fff;
+  padding: 1rem;
   border-radius: 60px;
   margin-bottom: 2rem;
 }
@@ -237,8 +239,8 @@ span.col-right-title{
 .bg-card-img img{
   object-fit: cover;
   object-position: center;
-  height: 250px;
-  width: 250px;
+  height: 230px;
+  width: 230px;
   border-radius: 50%;
 }
 
