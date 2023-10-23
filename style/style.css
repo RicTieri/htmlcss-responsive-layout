@@ -105,6 +105,10 @@ button i {
   text-align: left;
 }
 
+.card-col-right{
+  justify-content: center;
+}
+
 .card-col-left>p{
   margin-top: 2rem;
 }
@@ -227,14 +231,14 @@ span.col-right-title{
 }
 
 .bg-card-img{
-  padding: 2rem;
-  text-align: center;
+  padding: 1rem;
 }
 
 .bg-card-img img{
   object-fit: cover;
-  height: 300px;
-  width: 300px;
+  object-position: center;
+  height: 250px;
+  width: 250px;
   border-radius: 50%;
 }
 
@@ -426,7 +430,7 @@ footer a{
   }
 }
 
-@media screen and (min-width:480px) {
+@media screen and (min-width:576px) {
   .flex-col{
     justify-content: space-between;
     flex-direction: row;
@@ -447,6 +451,9 @@ footer a{
   }
   .card-col-left p{
     padding: 0;
+  }
+  .card-col-right{
+    justify-content: flex-start;
   }
   .card-col-right img{
     width: 60%;
