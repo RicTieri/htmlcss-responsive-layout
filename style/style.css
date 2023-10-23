@@ -486,6 +486,9 @@ footer a{
     width: 80%;
     margin: auto; 
   }
+  .footer-container > *:not(.title) {
+    padding: 0 2rem;
+  }
 }
 
 @media screen and (min-width:810px) {
@@ -564,7 +567,6 @@ footer a{
     font-weight: 800;
     margin-top: 2rem;
   }
-/* TESTIMONIAL sECTION  */
   .testimonials>p{
     font-size: 1.2rem;
   }
@@ -605,8 +607,11 @@ footer a{
     padding: .5rem 1rem;
   }
   .footer-container{
-    width: 30%;
+    width: 35%;
     margin: auto;
+  }
+  .footer-container > *:not(.title) {
+    padding: 0 4rem;
   }
   footer .yellow-banner{
     font-size: 5.5rem;
