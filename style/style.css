@@ -143,6 +143,7 @@ button i {
 
 .full-width-bg{
   background-color: #9792e4;
+  margin-top: 2rem;
 }
 
 .col-left img,
@@ -415,7 +416,7 @@ footer a{
 
 /* RESPONSIVE */
 
-@media screen and (max-width:810px) {
+@media screen and (max-width:1200px) {
   .navbar li {
     display: none;
   }
@@ -448,7 +449,7 @@ footer a{
     padding: 0;
   }
   .card-col-right img{
-    width: 80%;
+    width: 60%;
   }
   .bg-card{
     justify-content: center;
@@ -492,6 +493,19 @@ footer a{
 }
 
 @media screen and (min-width:810px) {
+  .header-container{
+    width: 80%;
+    margin: auto;
+  }
+  .container{
+    width: 80%;
+  }
+  .footer-container > *:not(.title) {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (min-width:1200px) {
   ul{
     list-style: none;
   }
